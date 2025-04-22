@@ -1,0 +1,85 @@
+/* Estilo general del header */
+.header {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    z-index: 1000;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  /* Menú de navegación */
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .nav-menu .nav-link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-menu .nav-link:hover {
+    color: #ffc107; /* Amarillo dorado al pasar mouse */
+  }
+  
+  .btn-cronograma {
+    background-color: #871739;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+  .btn-cronograma {
+    background-color: #871739;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 25px;
+  }
+  
+  /* Responsive  */
+  @media (max-width: 768px) {
+    .nav-menu {
+      flex-direction: column;
+      background: #1b1b1b;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: 200px;
+      display: none;
+    }
+  
+    .nav-menu.show {
+      display: flex;
+    }
+  }
+ /* Fondo general de la página */
+body {
+    background: radial-gradient(circle, #555555 0%, #e0e0e0 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  /* Fondo elegante para Habitación x-504 */
+.bg-habitacion-gradient {
+    background: linear-gradient(180deg, #2c3e50 0%, #bdc3c7 100%);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  
+  
+
+  

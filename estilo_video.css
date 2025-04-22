@@ -1,0 +1,111 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: radial-gradient(circle, #8B5E3C 0%, #5C4033 80%, #3B2920 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+section {
+    overflow: hidden;
+}
+
+.video-container {
+    max-width: 380px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: .375rem;
+    box-shadow: 0 .5rem 1rem rgba(60, 40, 20, 0.3);
+}
+
+.video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: .25rem;
+}
+
+.map-placeholder {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+    background-color: #fff;
+    border-radius: .375rem;
+    box-shadow: 0 .5rem 1rem rgba(60, 40, 20, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.75rem 1.5rem rgba(60, 40, 20, 0.3) !important;
+}
+
+#habitaciones h1,
+#recorrido-virtual h2,
+#espacios h2,
+#ubicacion h2 {
+    color: #f5f0e6;
+}
+
+#habitaciones h2 {
+    color: #e6d5c3; 
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    z-index: 1000;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .nav-menu .nav-link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-menu .nav-link:hover {
+    color: #ffc107; 
+  }
+  
+  .btn-cronograma {
+    background-color: #871739;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+  .btn-cronograma {
+    background-color: #871739;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 25px;
+  }
