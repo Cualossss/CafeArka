@@ -262,6 +262,34 @@ body {
     transform: translateY(-5px);
 }
 
+.formulario-container {
+  background: linear-gradient(to bottom right, #fbe0ce, #f0f0dc);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.btn-formulario {
+  background-color: #a73528; /* naranja-vinotinto */
+  border: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-formulario:hover {
+  background-color: #872a20;
+}
+
+.opiniones {
+  background: linear-gradient(to bottom, #e8d6cc, #d9c5ba); 
+  padding: 3rem 0;
+}
+
+
+
 
 .footer {
     background-color: #343a40; 
